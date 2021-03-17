@@ -90,12 +90,15 @@ body {
   background-color: #fff;
 }
 
-.link a {
+.link button {
+  border: none;
+  padding: 0 5px;
+  font-size: 1em;
   display: block;
   font-weight: 600;
-  font-size: 15px;
   color: #2a2a2a;
   text-transform: capitalize;
+  background-color: transparent;
 }
 
 .main-text-button a {
@@ -109,8 +112,8 @@ body {
   color: #fb5849;
 }
 
-.link a:active,
-.link a:hover {
+.link button:active,
+.link button:hover {
   color: #fb5849;
   opacity: 1;
 }
@@ -142,7 +145,7 @@ body {
   background-size: cover;
   width: 100%;
   margin-top: 20px;
-  height: 30vh;
+  height: 70vh;
   padding: 20px;
   background-color: #2a2a2a;
 }
@@ -184,8 +187,11 @@ body {
 }
 
 .menu-image {
-  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
   margin: 0 auto;
+  justify-content: space-around;
 }
 
 .menu-item {
@@ -219,7 +225,8 @@ body {
 }
 
 .img {
-  width: 100%;
+  width: 24.5%;
+  margin: 5px;
 }
 
 .price {
@@ -337,8 +344,75 @@ textarea {
   font-size: 17px;
 }
 
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #000;
+}
+
+.hamburger div:first-child {
+  margin-top: 20px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
 .form-button:hover {
   background-color: #2a2a2a;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .img {
+    width: 33%;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+  }
+
+  .body {
+    overflow-x: hidden;
+  }
+
+  .nav {
+    position: absolute;
+    right: 0;
+    height: 89vh;
+    top: 8vh;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translate(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-active {
+    transform: translate(0%);
+  }
+
+  .nav li {
+    opacity: 1;
+  }
+
+  .img {
+    width: 49%;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  img {
+    width: 90%;
+    margin: 5px;
+  }
 }
