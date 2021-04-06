@@ -186,22 +186,14 @@ body {
   text-transform: uppercase;
 }
 
-.menu-image {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto;
-  justify-content: space-around;
-}
-
 .menu-item {
-  width: 80%;
-  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .item {
-  width: 90%;
-  margin: 20px auto;
+  margin: 10px auto;
   position: relative;
 }
 
@@ -224,16 +216,23 @@ body {
   font-size: 20px;
 }
 
-.img {
-  width: 24.5%;
-  margin: 5px;
+.menu-img {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+
+.img,
+.item {
+  width: 29.5%;
+  margin-bottom: 10px;
 }
 
 .price {
   position: absolute;
   background-color: #fb5849;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 25px;
+  padding: 5px;
   top: 0;
   left: 0;
 }
@@ -241,7 +240,6 @@ body {
 .info {
   position: absolute;
   background-color: #fb5849;
-  left: 0;
   z-index: 3;
   bottom: 0;
   padding: 20px;
@@ -261,12 +259,14 @@ body {
 }
 
 .chef-container {
-  width: 80%;
-  margin: 0 auto;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .img-container {
-  width: 90%;
   margin: 10px auto;
 }
 
@@ -367,8 +367,9 @@ textarea {
 }
 
 @media only screen and (max-width: 800px) {
-  .img {
-    width: 33%;
+  .img,
+  .item {
+    width: 45%;
     margin: 5px;
   }
 }
@@ -388,6 +389,7 @@ textarea {
     height: 89vh;
     top: 8vh;
     display: flex;
+    z-index: 5;
     background-color: #fff;
     flex-direction: column;
     align-items: center;
@@ -404,8 +406,9 @@ textarea {
     opacity: 1;
   }
 
-  .img {
-    width: 49%;
+  .img,
+  .item {
+    width: 89%;
     margin: 5px;
   }
 }
