@@ -8,11 +8,10 @@ menuSection.innerHTML = `
     <h3>${'Our selection of cakes with quality taste'}</h3>
   </div>
   <div class="menu-item">
+
     <div class="item">
-      <img class="img" src="../images/menu-item-01.jpg" />
-      <div class="price">
-        <h6>${'$14'}</h6>
-      </div>
+      <img class="menu-img" src="../images/menu-item-01.jpg" />
+        <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
         <p class="description">${'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.'}</p>
@@ -23,13 +22,11 @@ menuSection.innerHTML = `
           </a>
         </div>
       </div>
-    </div>
+      </div>
 
     <div class="item">
-      <img class="img" src="../images/menu-item-02.jpg" />
-      <div class="price">
-        <h6>${'$14'}</h6>
-      </div>
+      <img class="menu-img" src="../images/menu-item-02.jpg" />
+        <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
         <p class="description">${'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.'}
@@ -43,10 +40,8 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="img" src="../images/menu-item-03.jpg" />
-      <div class="price">
-        <h6>${'$14'}</h6>
-      </div>
+      <img class="menu-img" src="../images/menu-item-03.jpg" />
+        <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
         <p class="description">${'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.'}</p>
@@ -59,10 +54,8 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="img" src="../images/menu-item-04.jpg" />
-      <div class="price">
-        <h6>${'$14'}</h6>
-      </div>
+      <img class="menu-img" src="../images/menu-item-04.jpg" />
+        <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
         <p class="description"> ${'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.'}</p>
@@ -75,10 +68,8 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="img" src="../images/menu-item-05.jpg" />
-      <div class="price">
-        <h6>${'$14'}</h6>
-      </div>
+      <img class="menu-img" src="../images/menu-item-05.jpg" />
+        <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
         <p class="description"> ${'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.'}
@@ -92,10 +83,8 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="img" src="../images/menu-item-01.jpg" />
-      <div class="price">
-        <h6>${'$14'}</h6>
-      </div>
+      <img class="menu-img" src="../images/menu-item-01.jpg" />
+        <h6 >${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
         <p class="description"> ${'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.'}
@@ -109,4 +98,4 @@ menuSection.innerHTML = `
       </div>
   </div> `;
 
-export default menuSection();
+export default menuSection;
