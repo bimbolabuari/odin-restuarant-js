@@ -1,10 +1,10 @@
 import { header, headerContainer, navLinks } from './header';
 import footer from './footer';
-// import menuSection from './menu';
-// import chefSection from './chef';
-// import aboutSection from './about';
-// import contactSection from './contact';
-// import homeSection from './home';
+import menuSection from './menu';
+import chefSection from './chef';
+import aboutSection from './about';
+import homeSection from './home';
+import contactSection from './contact';
 
 const bodyContent = document.createElement('main');
 
@@ -25,23 +25,6 @@ function navSlide() {
 }
 navSlide();
 
-// document.addEventListener('click', event => {
-// if (!event.target.dataset.action) {
-//   return;
-// }
-
-// if (event.target.dataset.action === 'home') {
-// }
-// if (event.target.dataset.action === 'about') {
-// }
-//   if (event.target.dataset.action === 'chef') {
-//     chefSection();
-//   }
-//   if (event.target.dataset.action === 'menu') {
-//     menuSection();
-//   }
-// });
-
 function startPage() {
   const mainContent = document.getElementById('content');
   mainContent.appendChild(header);
@@ -50,3 +33,30 @@ function startPage() {
 }
 
 startPage();
+
+document.addEventListener('click', event => {
+  if (!event.target.dataset.action) {
+    return;
+  }
+
+  if (event.target.dataset.action === 'home') {
+    bodyContent.innerHTML = '';
+    bodyContent.appendChild(homeSection);
+  }
+  if (event.target.dataset.action === 'about') {
+    bodyContent.innerHTML = '';
+    bodyContent.appendChild(aboutSection);
+  }
+  if (event.target.dataset.action === 'chef') {
+    bodyContent.innerHTML = '';
+    bodyContent.appendChild(chefSection);
+  }
+  if (event.target.dataset.action === 'menu') {
+    bodyContent.innerHTML = '';
+    bodyContent.appendChild(menuSection);
+  }
+  if (event.target.dataset.action === 'contact') {
+    bodyContent.innerHTML = '';
+    bodyContent.appendChild(contactSection);
+  }
+});

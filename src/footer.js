@@ -29,4 +29,4 @@ footer.innerHTML = `
     <p class="copyright">${'© Copyright bimbolabuari.'}</p>
 `;
 
-export default footer();
+export default footer;

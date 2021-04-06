@@ -20,7 +20,6 @@ aboutSection.innerHTML = `
             <img class="img" src="../images/04.jpg" alt="" />
             <img class="img" src="../images/05.jpg" alt="" />
             <img class="img" src="../images/06.jpg" alt="" />
-            <img class="img" src="../images/07.jpg" alt="" />
             </div>`;
 
 export default aboutSection;
