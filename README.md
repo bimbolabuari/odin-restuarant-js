@@ -2,8 +2,6 @@
 
 > This project is an Odin assignment on JS Webpack tutorial and DOM manipulation that demonstrates the knowledge of HTML, CSS, Webpack, template literals, DOM manipulation, Let and const, functions, and Importing and Exporting JS files.
 
-
-
 Prettier for code formatting
 
 Styelint for CSS linting
@@ -25,7 +23,6 @@ Additional description about the project and its features.
 - Webpack,
 - JavaScript,
 - Mark-down
-
 
 ## Live Demo
 
