@@ -9,7 +9,7 @@ chefSection.innerHTML = `
         
         <div class="chef-container">
           <div class="img-container">
-            <img src="../images/chefs-01.jpg" alt="Chef #1" />
+            <img src="./assets/images/chefs-01.jpg" alt="Chef #1" />
             <p class="down-content">
             <h4>${'Randy Walker'}</h4>
             <span>${'Pastry Chef'}</span>
@@ -17,7 +17,7 @@ chefSection.innerHTML = `
           </div>
 
           <div class="img-container">
-            <img src="../images/chefs-02.jpg" alt="Chef #1" />
+            <img src="./assets/images/chefs-02.jpg" alt="Chef #1" />
             <p class="down-content">
             <h4>${'David Martin'}</h4>
             <span>${'Cookie Chef'}</span>
@@ -25,7 +25,7 @@ chefSection.innerHTML = `
           </div>
 
           <div class="img-container">
-            <img src="../images/chefs-03.jpg" alt="Chef #1" />
+            <img src="./assets/images/chefs-03.jpg" alt="Chef #1" />
             <p class="down-content">
             <h4>${'Randy Walker'}</h4>
             <span>${'Pastry Chef'}</span>
