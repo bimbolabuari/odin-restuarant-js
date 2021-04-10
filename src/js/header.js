@@ -6,7 +6,7 @@ header.appendChild(headerContainer);
 headerContainer.innerHTML = `
                 <nav class="nav-logo">
                   <a href="index.html" class="logo">
-                    <img src="../images/klassy-logo.png" />
+                    <img src="./assets/images/klassy-logo.png" />
                   </a>
                 </nav>`;
 

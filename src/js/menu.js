@@ -10,7 +10,7 @@ menuSection.innerHTML = `
   <div class="menu-item">
 
     <div class="item">
-      <img class="menu-img" src="../images/menu-item-01.jpg" />
+      <img class="menu-img" src="./assets/images/menu-item-01.jpg" />
         <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
@@ -25,7 +25,7 @@ menuSection.innerHTML = `
       </div>
 
     <div class="item">
-      <img class="menu-img" src="../images/menu-item-02.jpg" />
+      <img class="menu-img" src="./assets/images/menu-item-02.jpg" />
         <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
@@ -40,7 +40,7 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="menu-img" src="../images/menu-item-03.jpg" />
+      <img class="menu-img" src="./assets/images/menu-item-03.jpg" />
         <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
@@ -54,7 +54,7 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="menu-img" src="../images/menu-item-04.jpg" />
+      <img class="menu-img" src="./assets/images/menu-item-04.jpg" />
         <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
@@ -68,7 +68,7 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="menu-img" src="../images/menu-item-05.jpg" />
+      <img class="menu-img" src="./assets/images/menu-item-05.jpg" />
         <h6 class="price">${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>
@@ -83,7 +83,7 @@ menuSection.innerHTML = `
     </div>
 
     <div class="item">
-      <img class="menu-img" src="../images/menu-item-01.jpg" />
+      <img class="menu-img" src="./assets/images/menu-item-01.jpg" />
         <h6 >${'$14'}</h6>
       <div class="info">
         <h2 class="title">${'Chocolate Cake'}</h2>

@@ -23,7 +23,7 @@ footer.innerHTML = `
     </div>
     <div class="logo">
       <a href="index.html">
-      <img src="../images/white-logo.png" alt=""/>
+      <img src="./assets/images/white-logo.png" alt=""/>
       </a>
     </div>
     <p class="copyright">${'© Copyright bimbolabuari.'}</p>
