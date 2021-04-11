@@ -130,7 +130,7 @@ body {
 }
 
 .img-fill {
-  background-image: url(../images/slide-02.jpg);
+  background-image: url(../assets/images/slide-02.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,7 +139,7 @@ body {
 }
 
 .footer {
-  background-image: url(../images/reservation-bg.jpg);
+  background-image: url(../assets/images/reservation-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,7 +151,7 @@ body {
 }
 
 .about-container {
-  background-image: url(../images/top-left-bg.jpg);
+  background-image: url(../assets/images/top-left-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,6 +220,12 @@ body {
   height: 100%;
   width: 100%;
   padding: 5px;
+}
+
+.menu-image {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .img,
