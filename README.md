@@ -40,7 +40,7 @@ git clone https://github.com/user/html-css-template.git
 - Install Dependencies
 
 ```bash
-npm run install
+npm install
 ```
 
 To run StyleLint by itself, you may run the lint task:
