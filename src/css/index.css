@@ -32,10 +32,6 @@ body {
   background: transparent;
 }
 
-.logo {
-  line-height: 75px;
-}
-
 .nav {
   display: flex;
   justify-content: space-evenly;
@@ -72,6 +68,23 @@ body {
   left: 0;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-list {
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.social-link {
+  font-size: 15px;
+  color: #fb5849;
+  padding: 10px;
+}
+
 .main-white-button {
   margin: 25px 0 10px 10px;
 }
@@ -88,6 +101,12 @@ body {
 
 .white a {
   background-color: #fff;
+}
+
+.table {
+  text-align: center;
+  margin-top: 20px;
+  color: #2a2a2a;
 }
 
 .link button {
@@ -136,18 +155,6 @@ body {
   background-size: cover;
   width: 100%;
   height: 100%;
-}
-
-.footer {
-  background-image: url(../assets/images/reservation-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  margin-top: 20px;
-  height: 70vh;
-  padding: 20px;
-  background-color: #2a2a2a;
 }
 
 .about-container {
@@ -252,6 +259,19 @@ body {
   text-align: center;
 }
 
+.icon-container {
+  position: absolute;
+  background-color: #fb5849;
+  top: -18px;
+  left: 40%;
+  border-radius: 50%;
+}
+
+.icon {
+  padding: 10px;
+  color: #fff;
+}
+
 .title {
   font-size: 25px;
 }
@@ -290,43 +310,108 @@ body {
 }
 
 .h4,
+.paragraph,
 .contact {
-  font-size: 15px;
+  color: #fff;
+  padding-top: 5px;
+  font-size: 20px;
+  line-height: 25px;
   text-align: left;
-  color: #fb5849;
-  margin-bottom: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
 }
 
+.right-flex {
+  align-self: center;
+  width: 100%;
+}
+
+.paragraph,
 .contact {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#contact {
+  background-image: url(../assets/images/reservation-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 85vh;
+  padding: 50px;
+  background-color: #2a2a2a;
   font-size: 25px;
   margin: 15px 0;
 }
 
 .copyright {
+  padding-right: 10px;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
 }
 
-.paragraph,
 .phone,
 .message {
-  text-align: left;
-  line-height: 25px;
+  position: relative;
+  background-color: #fff;
   color: #2a2a2a;
-  font-size: 18px;
+  border-radius: 3px;
+  font-size: 13px;
   font-weight: 300;
-  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
 }
 
 .form {
-  text-align: left;
-  border: none;
-  display: flex;
-  flex-direction: column;
+  background-color: #fff;
+  width: 70%;
+  padding: 20px;
+  border-radius: 4px;
 }
 
-fieldset {
-  margin: 3px;
+.flex,
+.div-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div-input {
+  margin-top: 10px;
+}
+
+.input,
+.textarea {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.input {
+  border: none;
+}
+
+.input:hover {
+  border: 1px solid #aaa;
+}
+
+.textarea {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #fb5849;
+  height: 20vh;
+  color: #fff;
 }
 
 input {
@@ -342,12 +427,15 @@ textarea {
 }
 
 .form-button {
-  padding: 10px;
+  padding: 15px;
+  margin-top: 10px;
   text-align: center;
   border: none;
-  color: #fb5849;
-  background-color: transparent;
-  font-size: 17px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #fb5849;
+  width: 100%;
+  font-size: 12px;
 }
 
 .hamburger div {
@@ -372,15 +460,109 @@ textarea {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .img,
   .item {
     width: 45%;
     margin: 5px;
   }
+
+  .table {
+    font-size: 10px;
+  }
+
+  .div-input {
+    margin-top: 5px;
+  }
+
+  .input,
+  .textarea {
+    font-size: 12px;
+    padding: 10px 2px;
+  }
+
+  #contact {
+    padding: 20px;
+    margin: 5px 0;
+  }
+
+  .right-flex {
+    width: 60%;
+  }
+
+  .h4 {
+    font-size: 15px;
+  }
+
+  .form {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #contact {
+    height: 120vh;
+    display: block;
+  }
+
+  .right-flex {
+    width: 100%;
+    height: 50%;
+  }
+
+  .form {
+    width: 100%;
+    height: 50%;
+  }
+
+  .input {
+    display: block;
+  }
+
+  .form-button {
+    background-color: transparent;
+    color: #fb5849;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .footer {
+    padding-top: 19px;
+    display: block;
+    text-align: center;
+    height: 40vh;
+  }
+
+  .copyright {
+    padding: 5px 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .social-link {
+    font-size: 10px;
+  }
+
+  .h4,
+  .paragraph,
+  .contact {
+    color: #fff;
+    padding-top: 3px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .paragraph,
+  .contact {
+    font-size: 8px;
+    font-weight: 100;
+  }
+
   .hamburger {
     display: block;
   }
@@ -424,4 +606,46 @@ textarea {
     width: 90%;
     margin: 5px;
   }
+
+  .input {
+    width: 100%;
+    text-align: center;
+  }
+
+  .paragraph,
+  .h4 {
+    display: none;
+  }
+
+  .phone,
+  .message {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .fa {
+    color: #fb5849;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .right-flex {
+    height: 30%;
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
