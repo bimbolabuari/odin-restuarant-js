@@ -1,6 +1,6 @@
 # Odin-restuarant-JS
 
-> This project is an Odin assignment on JS Webpack tutorial and DOM manipulation that demonstrates the knowledge of HTML, CSS, Webpack, template literals, DOM manipulation, Let and const, functions, and Importing and Exporting JS files.
+> This project is an Odin assignment on DOM manipulation and JS Webpack that demonstrates the knowledge of HTML, CSS, Webpack, template literals, DOM manipulation, Let and const, functions, and Importing and Exporting JS files, webpack.
 
 Prettier for code formatting
 
@@ -12,16 +12,20 @@ Github Actions for workflow
 
 Netlify for deployment
 
-![screenshot](./app_screenshot.png)
+![Home Section](./src/assets/images/home.png)
+![About Section](./src/assets/images/about.png)
+![Chef Section](./src/assets/images/chef.png)
+![Menu Section](./src/assets/images/menu.png)
+![Contact Section](./src/assets/images/contact.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Html,
-- CSS,
-- Webpack,
-- JavaScript,
+- Html
+- CSS
+- Webpack
+- JavaScript
 - Mark-down
 
 ## Live Demo
@@ -33,8 +37,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
-
+git clone https://github.com/bimbolabuari/odin-restuarant-js.git
 ```
 
 - Install Dependencies
@@ -82,15 +85,15 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@author](https://github.com/bimbolabuari)
+- Twitter: [@author](https://twitter.com/bimbolabuari)
+- Linkedin: [@author](https://www.linkedin.com/in/bimbolabuari/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues).
+Feel free to check the [issues page](https://github.com/bimbolabuari/odin-restuarant-js/issues).
 
 ## Show your support
 
@@ -98,9 +101,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [Template](https://templatemo.com/tm-558-klassy-cafe)
+- [Bolah](https://github.com/bolah2009)
 
 ## 📝 License
 
