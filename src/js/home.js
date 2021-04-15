@@ -8,10 +8,10 @@ homeSection.innerHTML = `
   <div class="Modern-Slider">
     <div class="img-fill">
       <div class="intro">
-        <h4>${'KlassyCafe'}</h4>
-        <h6>${'THE BEST EXPERIENCE'}</h6>
+        <h4>KlassyCafe</h4>
+        <h6>THE BEST EXPERIENCE</h6>
         <div class="main-white-button">
-          <a href="./contact.js">${'Make A Reservation'}</a>
+          <a href="./contact.js">Make A Reservation</a>
         </div>
       </div>
     </div>
