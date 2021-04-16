@@ -1,32 +1,46 @@
 # Odin-restuarant-JS
 
-> This project is an Odin assignment on DOM manipulation and JS Webpack that demonstrates the knowledge of HTML, CSS, Webpack, template literals, DOM manipulation, Let and const, functions, and Importing and Exporting JS files, webpack.
+> This project is [an odin assignment](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page) on JS Webpack tutorial and DOM manipulation that demonstrates the knowledge of HTML, CSS, Webpack, template literals, DOM manipulation, Let and const, functions, and Importing and Exporting JS files.
 
-Prettier for code formatting
+## Built With
 
-Styelint for CSS linting
+HTML
 
-ESlint for JS linting
+- Semantic HTML
 
-Github Actions for workflow
+CSS
 
-Netlify for deployment
+- CSS Flexbox for effective layout
+- CSS positioning properties
+- Background properties
+- Display properties
+
+JavaScript
+
+- DOM manipulation
+- Webpack
+- Let and Const
+- Arrow function
+
+Mark-down
+
+[Prettier](https://prettier.io/) for code formatting
+
+[Stylelint](https://stylelint.io/) for CSS linting
+
+[ESlint]() for JS linting
+
+[Webhint](https://webhint.io/)
+
+[Github Actions for workflow](https://github.com/features/actions)
+
+[Netlify for deployment](https://app.netlify.com/)
 
 ![Home Section](./src/assets/images/home.png)
 ![About Section](./src/assets/images/about.png)
 ![Chef Section](./src/assets/images/chef.png)
 ![Menu Section](./src/assets/images/menu.png)
 ![Contact Section](./src/assets/images/contact.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Html
-- CSS
-- Webpack
-- JavaScript
-- Mark-down
 
 ## Live Demo
 
