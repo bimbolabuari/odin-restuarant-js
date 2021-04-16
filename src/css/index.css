@@ -80,7 +80,7 @@ body {
 }
 
 .social-link {
-  font-size: 15px;
+  font-size: 18px;
   color: #fb5849;
   padding: 10px;
 }
@@ -118,6 +118,8 @@ body {
   color: #2a2a2a;
   text-transform: capitalize;
   background-color: transparent;
+  cursor: pointer;
+  outline: none;
 }
 
 .main-text-button a {
@@ -352,6 +354,8 @@ body {
   padding-right: 10px;
   color: #fff;
   font-size: 12px;
+  text-align: end;
+  display: block;
 }
 
 .phone,
@@ -412,6 +416,7 @@ body {
   background-color: #fb5849;
   height: 20vh;
   color: #fff;
+  padding: 0 5.3em;
 }
 
 input {
@@ -467,6 +472,10 @@ textarea {
     margin: 5px;
   }
 
+  .footer {
+    padding: 0;
+  }
+
   .table {
     font-size: 10px;
   }
@@ -505,6 +514,13 @@ textarea {
     display: block;
   }
 
+  .footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 40vh;
+  }
+
   .right-flex {
     width: 100%;
     height: 50%;
@@ -526,15 +542,9 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
-  .footer {
-    padding-top: 19px;
-    display: block;
-    text-align: center;
-    height: 40vh;
-  }
-
   .copyright {
     padding: 5px 0;
+    text-align: center;
   }
 
   .social-icons {
@@ -543,7 +553,7 @@ textarea {
   }
 
   .social-link {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .h4,
