@@ -11,7 +11,7 @@ homeSection.innerHTML = `
         <h4>KlassyCafe</h4>
         <h6>THE BEST EXPERIENCE</h6>
         <div class="main-white-button">
-          <a href="./contact.js">Make A Reservation</a>
+        <a href="https://github.com/bimbolabuari" target="_blank">Make A Reservation</a>
         </div>
       </div>
     </div>
