@@ -14,6 +14,7 @@ CSS
 - CSS positioning properties
 - Background properties
 - Display properties
+- Media Queries
 
 JavaScript
 
@@ -36,6 +37,7 @@ Mark-down
 
 [Netlify for deployment](https://app.netlify.com/)
 
+![Responsive View](./src/assets/images/responsive.png)
 ![Home Section](./src/assets/images/home.png)
 ![About Section](./src/assets/images/about.png)
 ![Chef Section](./src/assets/images/chef.png)
