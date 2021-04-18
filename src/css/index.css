@@ -82,7 +82,10 @@ body {
 .social-link {
   font-size: 18px;
   color: #fb5849;
-  padding: 10px;
+  padding: 4px 10px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
 }
 
 .main-white-button {
@@ -465,6 +468,18 @@ textarea {
   cursor: pointer;
 }
 
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
 @media only screen and (max-width: 900px) {
   .img,
   .item {
@@ -646,16 +661,4 @@ textarea {
   .right-flex {
     height: 30%;
   }
-}
-
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
 }
