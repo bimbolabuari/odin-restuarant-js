@@ -46,7 +46,7 @@ Mark-down
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://bimbola-restuarant-js.netlify.app/)
 
 ### Development (Running locally)
 
